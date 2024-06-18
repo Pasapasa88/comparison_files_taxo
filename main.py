@@ -19,7 +19,7 @@ def merge_files(list_files1, list_files2,directory1,directory2):
                 print(f'Файл {x1} результат {main(directory1+x1, directory2+x2)}')
 
 if __name__ == '__main__':
-    directory1 = r'C:\Users\BuyanovPV\Desktop\Таксон\final_6_0\final_6_0\www.cbr.ru\xbrl\nso'
+    directory1 = r'C:\Users\BuyanovPV\Desktop\Таксон\final_6_0\final_6_0\www.cbr.ru\xbrl\nso1'
     directory2 = r'C:\Users\BuyanovPV\Desktop\Таксон\final_6\final_6\www.cbr.ru\xbrl\nso'
     file_list_1 = get_files_in_directory(directory1)
     file_list_2 = get_files_in_directory(directory2)
